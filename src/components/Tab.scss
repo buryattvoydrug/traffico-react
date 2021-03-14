@@ -1,0 +1,32 @@
+@import '../Variables.scss';
+.tab-title{
+  padding: 30px 35px;
+  background: $white;
+  box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+  border-radius: 10px;
+  .plus {
+    display: flex;
+    background: $red;
+    height: 2px; 
+    width: 20px;
+    position: relative; 
+    }
+    .plus:after {
+    content: "";
+    height: 2px; 
+    width: 20px;
+    background: $red;
+    transform: rotate(90deg);
+    }
+}
+@media screen and (max-width:1170px){
+  .tab-title{
+    padding: 20px 22px;
+    .plus{
+      width: 12px;
+      &::after{
+        width: 12px;
+      }
+    }
+  }
+}

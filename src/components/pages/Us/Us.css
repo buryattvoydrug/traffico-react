@@ -1,0 +1,20 @@
+.us {
+  margin-top: 180px;
+  position: relative;
+}
+
+.us .arrows {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+@media (max-width: 1170px) {
+  .us {
+    margin-bottom: 70px;
+    margin-top: 50px;
+  }
+  .us h2 {
+    margin-bottom: 150px;
+  }
+}

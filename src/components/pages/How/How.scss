@@ -1,0 +1,25 @@
+.how{
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  img{
+    margin-left: -110px;
+  }
+  .text-block{
+    padding-top: 99px;
+    max-width: 470px;
+  }
+}
+@media screen and (max-width:1170px){
+  .how{
+    margin-bottom: 80px;
+    flex-direction: column-reverse;
+    img{
+      margin-left: 0;
+    }
+    .text-block{
+      padding-top: 0;
+      max-width:85%;
+    }
+  }
+}

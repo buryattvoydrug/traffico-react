@@ -1,0 +1,36 @@
+.head{
+  margin-bottom: 700px;
+  h1{
+    width: 60%;
+    padding: 90px  0 60px;
+  }
+  .people{
+    position: absolute;
+    top:415px;
+    right:170px;
+  }
+  .auto{
+    position: absolute;
+    top:765px;
+    left:-445px;
+  }
+}
+@media screen and (max-width:1170px){
+  .head{
+    margin-bottom: 300px;
+    h1{
+      width: 38vh;
+      padding: 9vh 0 43vh;
+    }
+    .people{
+      height: 41vh;
+      right:0;
+      top:34vh;
+    }
+    .auto{
+      height: 180px;
+      top:85vh;
+      left:-90px;
+    }
+  }
+}

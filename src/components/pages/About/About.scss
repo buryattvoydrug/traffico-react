@@ -1,0 +1,31 @@
+.about{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 161px;
+  .text-block{
+    padding-top: 70px;
+    max-width: 570px;
+    p{
+      max-width: 470px;
+    }
+    .question{
+      margin-top: 66px;
+    }
+  }
+}
+@media screen and (max-width:1170px){
+  .about{
+    flex-direction: column;
+    margin-bottom: 100px;
+    .text-block{
+      padding-top: 0;
+      max-width:100%;
+      p{
+        max-width: 85%;
+      }
+      .question{
+        margin-top: 50px;
+      }
+    }
+  }
+}

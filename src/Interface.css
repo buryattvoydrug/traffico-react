@@ -1,0 +1,112 @@
+h2 {
+  margin-bottom: 45px;
+}
+
+.nav__item a {
+  padding: 20px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.nav__item a img {
+  margin-left: 24px;
+}
+
+.nav__item a:focus {
+  outline: none !important;
+}
+
+.nav__item a:hover,
+header .nav__item:last-child a {
+  background: #EE4D47;
+}
+
+.arrows {
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.arrow__button {
+  background: none;
+  border: none;
+}
+
+.arrow__button.prev img {
+  opacity: 0.5;
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.bottom-block .question {
+  background: none;
+}
+
+.login {
+  background: #fff;
+  -webkit-box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+          box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+  border-radius: 10px;
+}
+
+.login input {
+  border: 1px solid rgba(238, 77, 71, 0.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px 0 20px 40px;
+}
+
+.login input:focus {
+  -webkit-box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.2);
+          box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.2);
+  outline: none !important;
+  border: 2px solid #EE4D47 !important;
+}
+
+.social li {
+  width: 40px;
+  height: 40px;
+  background: #EE4D47;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 1170px) {
+  h2 {
+    margin-bottom: 25px;
+  }
+  .nav__item a {
+    padding: 13px 15px;
+    border-radius: 3px;
+  }
+  .nav__item a img {
+    height: 8px;
+    margin-left: 16px;
+  }
+  header .nav__item:last-child a {
+    background: transparent;
+  }
+  .arrows {
+    display: none;
+  }
+  .login input {
+    padding: 15px 0 15px 30px;
+  }
+}

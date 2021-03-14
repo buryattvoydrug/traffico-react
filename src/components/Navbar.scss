@@ -1,0 +1,112 @@
+@import '../Variables.scss';
+header{
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo{
+    display: flex;
+    align-items: center;
+    img{
+      margin-right: 28px;
+    }
+    span{
+      padding-top: 7px;
+    }
+  }
+  nav{
+    width: 54%;
+    .nav{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .nav__item{
+    font-family: 'Rubik-Bold';
+    font-size: 16px;
+    color:$white;
+    text-transform: uppercase;
+  }
+  .logo{
+    font-family: 'DMSerifDisplay-Regular';
+    font-size: 32px;
+    color:$white;
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width:1170px){
+  .nav__item{
+    font-size: 24px;
+  }
+  .logo{
+    font-size: 20px;
+  }
+  header{
+    nav{
+      z-index: 2;
+      position: fixed;
+      top:0;
+      left:0;
+      height: 100vh;
+      width: 100vw;
+      transition: all .5s ease-in;
+      transform: translateX(-100%);
+      opacity: 0;
+      background: linear-gradient(180deg, #F4A984 24.15%, #EE4D47 135.6%);
+      .nav{
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 170px;
+        .nav__item{
+          padding: 20px;
+        }
+      }
+    }
+    .nav_active{
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  .nav-button{
+    padding: 10px;
+    z-index: 3;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    background:$red;
+    transition: all .7s;
+    .nav__button{
+      width: 20px;
+      height: 2px;
+      margin: 2.5px 0;
+      background:$white;
+      transition: all .7s;
+    }
+  }
+  .nav-button_active{
+    background:transparent;
+    .nav__button:first-child{
+      transform: rotate(45deg) translate(5px,5px);
+    }
+    .nav__button:nth-child(2){
+      opacity: 0;
+    }
+    .nav__button:last-child{
+      transform: rotate(-45deg) translate(5px,-5px);
+    }
+  }
+  header{
+    padding-top: 30px;
+    .logo{
+      z-index: 3;
+      img{
+        width: 30px;
+        margin-right: 15px;
+      }
+      span{
+        padding-top: 5px;
+      }
+    }
+  }
+}

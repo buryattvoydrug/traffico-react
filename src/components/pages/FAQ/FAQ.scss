@@ -1,0 +1,103 @@
+.faq{
+  position: relative;
+  h2{
+    padding-top: 220px;
+  }
+  h3{
+    max-width: 550px;
+    margin-bottom: 170px;
+  }
+  .faq__img{
+    position: absolute;
+    right:-70px;
+    top:100px;
+  }
+  &:before{
+    content:'';
+    position: absolute;
+    z-index: -1;
+    left:15%;
+    background: #FDEDE8;
+    border-radius:200px 0 0 0;
+    width: 75vw;
+    height: 100%;
+  }
+  .tab{
+    position: relative;
+    max-width: 550px;
+    margin: 5px 10px;
+    background: #FFF7F5;
+    border-radius: 10px;
+    transition: all .6s;
+    .tab-title{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 2;
+      box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    }
+  }
+  .more{
+    background: rgba(237, 77, 71, 0.2);
+  }
+  .tabs-section{
+    display: flex;
+  }
+  .tabs-block{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    .tab-text{
+      height: 0;
+      opacity: 0;
+      max-width: 100%;
+      border-radius: 0 0 10px 10px;
+      transition: all .6s;
+    }
+    .tab:hover > .tab-text{
+      opacity: 1;
+      transition: all .6s;
+      padding: 40px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    .tab:hover > .tab-title .plus::after{
+      transform: rotate(0deg);
+      transition: all .6s;
+    }
+    .plus::after{
+      transition: all .6s;
+    }
+  }
+}
+@media screen and (max-width:1170px){
+  .faq{
+    &:before{
+      right:-5vw;
+      left:auto;
+    }
+    h2{
+      padding-top: 75px;
+    }
+    h3{
+      margin-bottom: 25px;
+    }
+    .faq__img{
+      position: relative;
+      width: 300px;
+      top:auto;
+      right:auto;
+    }
+    .tabs-section{
+      margin-top: 40px;
+      padding-bottom: 20px;
+      flex-direction: column;
+      .tabs-block{
+        height: auto;
+        .tab:hover > .tab-text{
+          padding: 20px;
+        }
+      }
+    }
+  }
+}

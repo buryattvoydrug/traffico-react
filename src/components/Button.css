@@ -1,0 +1,25 @@
+.get {
+  background: #EE4D47;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.get img {
+  margin-left: 24px;
+}
+
+.get:focus {
+  outline: none !important;
+}
+
+@media screen and (max-width: 1170px) {
+  .get {
+    padding: 13px 15px;
+    border-radius: 3px;
+  }
+  .get img {
+    height: 8px;
+    margin-left: 16px;
+  }
+}

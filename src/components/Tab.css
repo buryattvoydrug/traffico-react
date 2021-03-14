@@ -1,0 +1,39 @@
+.tab-title {
+  padding: 30px 35px;
+  background: #fff;
+  -webkit-box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+          box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+  border-radius: 10px;
+}
+
+.tab-title .plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #EE4D47;
+  height: 2px;
+  width: 20px;
+  position: relative;
+}
+
+.tab-title .plus:after {
+  content: "";
+  height: 2px;
+  width: 20px;
+  background: #EE4D47;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1170px) {
+  .tab-title {
+    padding: 20px 22px;
+  }
+  .tab-title .plus {
+    width: 12px;
+  }
+  .tab-title .plus::after {
+    width: 12px;
+  }
+}

@@ -1,0 +1,13 @@
+.question {
+  background: rgba(252, 221, 212, 0.4);
+  padding: 30px 55px;
+  -webkit-box-shadow: 10px 0 0 #EE4D47 inset;
+          box-shadow: 10px 0 0 #EE4D47 inset;
+  border-radius: 5px 0 0 5px;
+}
+
+@media screen and (max-width: 1170px) {
+  .question {
+    padding: 40px 30px;
+  }
+}
