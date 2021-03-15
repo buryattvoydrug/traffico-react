@@ -23,7 +23,7 @@ function App() {
       <Us />
       <Bottom/>
       <footer>
-        <span>buryattvoydrug @ 2021</span>
+        <span className="copyright">buryattvoydrug @ 2021</span>
         <ul className="social">
           <li><a><img src=" images/facebook.png" alt="" /></a></li>
           <li><a><img src=" images/twitter.png" alt="" /></a></li>
