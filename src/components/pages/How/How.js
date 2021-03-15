@@ -3,7 +3,7 @@ import './How.css'
 
 function How() {
   return (
-    <section className="how">
+    <section className="how" id="how">
         <img src=" images/pic2.svg" alt="" />
         <div className="text-block">
           <h2>How to apply</h2>

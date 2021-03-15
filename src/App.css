@@ -228,46 +228,6 @@ header .nav__item:last-child a {
   background: #EE4D47;
 }
 
-.question {
-  background: rgba(252, 221, 212, 0.4);
-  padding: 30px 55px;
-  -webkit-box-shadow: 10px 0 0 #EE4D47 inset;
-          box-shadow: 10px 0 0 #EE4D47 inset;
-  border-radius: 5px 0 0 5px;
-}
-
-.tab-title {
-  padding: 30px 35px;
-  background: #fff;
-  -webkit-box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
-          box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
-  border-radius: 10px;
-}
-
-.tab-title .plus {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #EE4D47;
-  height: 2px;
-  width: 20px;
-  position: relative;
-}
-
-.tab-title .plus:after {
-  content: "";
-  height: 2px;
-  width: 20px;
-  background: #EE4D47;
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.more {
-  background: rgba(237, 77, 71, 0.2);
-}
-
 .arrows {
   width: 90px;
   display: -webkit-box;
@@ -291,22 +251,6 @@ header .nav__item:last-child a {
   -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
           transform: rotate(-180deg);
-}
-
-.client__item:not(:first-child) {
-  background: #fff;
-  -webkit-box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
-          box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
-  border-radius: 10px;
-  padding: 60px 50px 40px;
-}
-
-.client__item:not(:first-child) .person img {
-  border-radius: 100px;
-  width: 60px;
-  height: 60px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .bottom-block .question {
@@ -366,27 +310,8 @@ header .nav__item:last-child a {
   header .nav__item:last-child a {
     background: transparent;
   }
-  .question {
-    padding: 40px 30px;
-  }
-  .tab-title {
-    padding: 20px 22px;
-  }
-  .tab-title .plus {
-    width: 12px;
-  }
-  .tab-title .plus::after {
-    width: 12px;
-  }
   .arrows {
     display: none;
-  }
-  .client__item:not(:first-child) {
-    padding: 45px 30px 40px;
-  }
-  .client__item:not(:first-child) .person img {
-    width: 50px;
-    height: 50px;
   }
   .login input {
     padding: 15px 0 15px 30px;

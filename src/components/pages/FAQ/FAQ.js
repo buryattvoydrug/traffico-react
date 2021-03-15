@@ -7,7 +7,7 @@ function FAQ() {
   const [isActive,setActive]= useState(false)
   const toggleClass = () => setActive(!isActive)
   return (
-    <section className="faq">
+    <section className="faq" id="faq">
         <h2>FAQ</h2>
         <h3>Questions and Answers on Professional Traffic Permits:</h3>
         <img src=" images/pic3.svg" alt="" className="faq__img" />
@@ -29,10 +29,10 @@ function FAQ() {
             <Tab {...FAQObject10}/>
               </>
             :
-            <div onClick={toggleClass} class="tab">
-              <div class="tab-title more">
+            <div onClick={toggleClass} className="tab">
+              <div className="tab-title more">
                 <span>LOAD MORE</span>
-                <span class="plus"></span>
+                <span className="plus"></span>
               </div>
             </div>}
           </div>

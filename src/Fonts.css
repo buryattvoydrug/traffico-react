@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: url("fonts/Rubik-Bold.eot");
+  src: url("fonts/Rubik-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Rubik-Bold.svg#Rubik-Bold") format("svg"), url("fonts/Rubik-Bold.ttf") format("truetype"), url("fonts/Rubik-Bold.woff") format("woff"), url("fonts/Rubik-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: url("fonts/Rubik-Medium.eot");
+  src: url("fonts/Rubik-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/Rubik-Medium.svg#Rubik-Medium") format("svg"), url("fonts/Rubik-Medium.ttf") format("truetype"), url("fonts/Rubik-Medium.woff") format("woff"), url("fonts/Rubik-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Light';
+  src: url("fonts/Rubik-Light.eot");
+  src: url("fonts/Rubik-Light.eot?#iefix") format("embedded-opentype"), url("fonts/Rubik-Light.svg#Rubik-Light") format("svg"), url("fonts/Rubik-Light.ttf") format("truetype"), url("fonts/Rubik-Light.woff") format("woff"), url("fonts/Rubik-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DMSerifDisplay-Regular';
+  src: url("fonts/DMSerifDisplay-Regular.eot");
+  src: url("fonts/DMSerifDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/DMSerifDisplay-Regular.svg#DMSerifDisplay-Regular") format("svg"), url("fonts/DMSerifDisplay-Regular.ttf") format("truetype"), url("fonts/DMSerifDisplay-Regular.woff") format("woff"), url("fonts/DMSerifDisplay-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'DMSerifDisplay-Regular';
+  font-size: 100px;
+  line-height: 100%;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Rubik-Bold';
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #EE4D47;
+}
+
+h3 {
+  font-family: 'DMSerifDisplay-Regular';
+  font-size: 48px;
+  color: #402B2B;
+}
+
+p {
+  font-family: 'Rubik-Light';
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.nav__item, .get {
+  font-family: 'Rubik-Bold';
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-family: 'DMSerifDisplay-Regular';
+  font-size: 32px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.question {
+  font-family: 'Rubik-Medium';
+  font-size: 24px;
+  color: #402B2B;
+}
+
+.tab-title {
+  font-family: 'Rubik-Medium';
+  font-size: 18px;
+  color: #402B2B;
+}
+
+.tab-text {
+  font-family: 'Rubik-Light';
+  font-size: 18px;
+  color: #402B2B;
+}
+
+.more {
+  font-family: 'Rubik-Bold';
+  color: #EE4D47;
+  text-transform: uppercase;
+}
+
+.client__item {
+  color: #402B2B;
+  font-size: 16px;
+}
+
+.client__item p {
+  line-height: 22px;
+}
+
+.client__item span {
+  font-family: 'Rubik-Bold';
+}
+
+.bottom .question {
+  color: #fff;
+  font-size: 20px;
+}
+
+label {
+  font-family: 'Rubik-Light';
+  font-size: 16px;
+  color: #402B2B;
+}
+
+input {
+  font-family: 'Rubik-Bold';
+  color: #402B2B;
+  font-size: 18px;
+}
+
+input::-webkit-input-placeholder {
+  font-family: 'Rubik-Light';
+  color: #402B2B;
+}
+
+input:-ms-input-placeholder {
+  font-family: 'Rubik-Light';
+  color: #402B2B;
+}
+
+input::-ms-input-placeholder {
+  font-family: 'Rubik-Light';
+  color: #402B2B;
+}
+
+input::placeholder {
+  font-family: 'Rubik-Light';
+  color: #402B2B;
+}
+
+copyright {
+  font-family: 'Rubik-Light';
+  color: #402B2B;
+  font-size: 16px;
+}
+
+@media (max-width: 1170px) {
+  h1 {
+    font-size: 5vh;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .get {
+    font-size: 10px;
+  }
+  .nav__item {
+    font-size: 24px;
+  }
+  .bottom .nav__item {
+    font-size: 16px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .question {
+    font-size: 20px;
+  }
+  .tab-title {
+    font-size: 14px;
+  }
+  .tab-text {
+    font-size: 14px;
+  }
+  .client__item {
+    font-size: 14px;
+  }
+  label {
+    font-size: 12px;
+  }
+  input {
+    font-size: 14px;
+  }
+  copyright {
+    font-size: 12px;
+  }
+}

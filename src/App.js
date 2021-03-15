@@ -1,5 +1,7 @@
-import { BrowserRouter as Router,Route, Switch } from 'react-router-dom';
+import React from 'react'
+
 import './App.css';
+
 import Navbar from './components/Navbar.js';
 import About from './components/pages/About/About';
 import Bottom from './components/pages/Bottom/Bottom';
@@ -8,25 +10,21 @@ import Head from './components/pages/Head/Head';
 import How from './components/pages/How/How';
 import Us from './components/pages/Us/Us';
 
+
 function App() {
   return (
     <div className="wrapper">
     <div className="container">
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/'/>
-        </Switch>
-      </Router>
+      <Navbar />
       <Head />
-      <About/>
-      <How/>
-      <FAQ/>
-      <Us/>
+      <About />
+      <How />
+      <FAQ />
+      <Us />
       <Bottom/>
       <footer>
-        <copyright>buryattvoydrug @ 2021</copyright>
-        <ul classNameName="social">
+        <span>buryattvoydrug @ 2021</span>
+        <ul className="social">
           <li><a><img src=" images/facebook.png" alt="" /></a></li>
           <li><a><img src=" images/twitter.png" alt="" /></a></li>
           <li><a><img src=" images/insta.png" alt="" /></a></li>

@@ -18,20 +18,7 @@ header .nav__item:last-child a{
   background: $red;
 }
 
-.arrows{
-  width: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.arrow__button{
-  background: none;
-  border:none;
-  &.prev img{
-    opacity: 0.5;
-    transform: rotate(-180deg);
-  }
-}
+
 .bottom-block .question{
   background: none;
 }

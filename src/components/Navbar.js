@@ -1,13 +1,20 @@
 import React, {useState} from 'react'
-import {Link} from 'react-router-dom';
+import {Link, animateScroll as scroll} from 'react-scroll';
+
 import './Navbar.css'
 
 function Navbar() {
   const [isActive,setActive]= useState(false)
   const toggleClass = () => setActive(!isActive)
+
+  const closeMenu = () => setActive(false)
   return (
     <header>
-      <Link to="/" className="logo">
+      <Link to="/"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500} onClick={closeMenu} className="logo">
           <img src="images/logo.png" alt="" />
           <span>Traffico.</span>
         </Link>
@@ -18,10 +25,30 @@ function Navbar() {
         </div>
         <nav className={!isActive ? '':'nav_active'}>
           <ul className='nav'>
-            <li className="nav__item"><Link to="/about">About</Link></li>
-            <li className="nav__item"><Link to="/how">How to</Link></li>
-            <li className="nav__item"><Link to="/faq">FAQS</Link></li>
-            <li className="nav__item"><Link to="/us">Contact us</Link></li>
+            <li className="nav__item"><Link onClick={closeMenu} to="about"
+                                                                spy={true}
+                                                                smooth={true}
+                                                                offset={-70}
+                                                                duration= {500}
+             >About</Link></li>
+            <li className="nav__item"><Link onClick={closeMenu} to="how"
+                                                                spy={true}
+                                                                smooth={true}
+                                                                offset={-70}
+                                                                duration= {500}
+             >How to</Link></li>
+            <li className="nav__item"><Link onClick={closeMenu} to="faq"
+                                                                spy={true}
+                                                                smooth={true}
+                                                                offset={0}
+                                                                duration= {500}
+             >FAQS</Link></li>
+            <li className="nav__item"><Link onClick={closeMenu} to="us"
+                                                                spy={true}
+                                                                smooth={true}
+                                                                offset={-70}
+                                                                duration= {500}
+             >Contact us</Link></li>
           </ul>
         </nav>
     </header>

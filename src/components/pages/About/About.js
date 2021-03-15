@@ -4,7 +4,7 @@ import './About.css'
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
         <div className="text-block">
           <h2>About us</h2>
           <p>The occupational traffic permit is one of the most important things in the company when carrying out freight

@@ -11,10 +11,10 @@ function Bottom() {
         <div className="bottom-block">
           <Question/>
           <div className="login">
-            <label for="">Name</label>
-            <input type="text" placeholder="Your name" />
-            <label for="">Email address</label>
-            <input type="text" placeholder="Your email address" />
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" />
+            <label for="mail">Email address</label>
+            <input id="mail" type="text" placeholder="Your email address" />
             <Button/>
           </div>
         </div>
