@@ -16,7 +16,9 @@ function App() {
   return (
     <div className="wrapper">
     <div className="container">
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       <Head />
       <About />
       <How />

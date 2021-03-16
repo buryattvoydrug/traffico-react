@@ -200,7 +200,7 @@ input::placeholder {
   input {
     font-size: 14px;
   }
-  copyright {
+  .copyright {
     font-size: 12px;
   }
 }

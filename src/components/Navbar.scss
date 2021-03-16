@@ -1,5 +1,6 @@
 @import '../Variables.scss';
-header{
+.navbar{
+  width: 100%;
   padding-top: 15px;
   display: flex;
   justify-content: space-between;
@@ -42,7 +43,7 @@ header{
   .logo{
     font-size: 20px;
   }
-  header{
+  .navbar{
     nav{
       z-index: 2;
       position: fixed;
@@ -96,7 +97,7 @@ header{
       transform: rotate(-45deg) translate(5px,-5px);
     }
   }
-  header{
+  .navbar{
     padding-top: 30px;
     .logo{
       z-index: 3;

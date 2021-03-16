@@ -1,4 +1,5 @@
-header {
+.navbar {
+  width: 100%;
   padding-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,7 +12,7 @@ header {
           align-items: center;
 }
 
-header .logo {
+.navbar .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,19 +21,19 @@ header .logo {
           align-items: center;
 }
 
-header .logo img {
+.navbar .logo img {
   margin-right: 28px;
 }
 
-header .logo span {
+.navbar .logo span {
   padding-top: 7px;
 }
 
-header nav {
+.navbar nav {
   width: 54%;
 }
 
-header nav .nav {
+.navbar nav .nav {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,14 +43,14 @@ header nav .nav {
           justify-content: space-between;
 }
 
-header .nav__item {
+.navbar .nav__item {
   font-family: 'Rubik-Bold';
   font-size: 16px;
   color: #fff;
   text-transform: uppercase;
 }
 
-header .logo {
+.navbar .logo {
   font-family: 'DMSerifDisplay-Regular';
   font-size: 32px;
   color: #fff;
@@ -63,7 +64,7 @@ header .logo {
   .logo {
     font-size: 20px;
   }
-  header nav {
+  .navbar nav {
     z-index: 2;
     position: fixed;
     top: 0;
@@ -82,7 +83,7 @@ header .logo {
     background: -o-linear-gradient(top, #F4A984 24.15%, #EE4D47 135.6%);
     background: linear-gradient(180deg, #F4A984 24.15%, #EE4D47 135.6%);
   }
-  header nav .nav {
+  .navbar nav .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -92,10 +93,10 @@ header .logo {
             align-items: flex-end;
     padding-top: 170px;
   }
-  header nav .nav .nav__item {
+  .navbar nav .nav .nav__item {
     padding: 20px;
   }
-  header .nav_active {
+  .navbar .nav_active {
     -webkit-transform: translateX(0%);
         -ms-transform: translateX(0%);
             transform: translateX(0%);
@@ -142,17 +143,17 @@ header .logo {
         -ms-transform: rotate(-45deg) translate(5px, -5px);
             transform: rotate(-45deg) translate(5px, -5px);
   }
-  header {
+  .navbar {
     padding-top: 30px;
   }
-  header .logo {
+  .navbar .logo {
     z-index: 3;
   }
-  header .logo img {
+  .navbar .logo img {
     width: 30px;
     margin-right: 15px;
   }
-  header .logo span {
+  .navbar .logo span {
     padding-top: 5px;
   }
 }

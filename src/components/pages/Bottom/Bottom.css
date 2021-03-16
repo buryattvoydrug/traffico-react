@@ -43,6 +43,10 @@
   width: 330px;
 }
 
+.totop__img {
+  height: 40px;
+}
+
 @media screen and (max-width: 1170px) {
   .bottom:before {
     height: 90%;

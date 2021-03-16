@@ -17,7 +17,7 @@ h2 {
 }
 
 .nav__item a:hover,
-header .nav__item:last-child a {
+.navbar .nav__item:last-child a {
   background: #EE4D47;
 }
 
@@ -37,7 +37,7 @@ header .nav__item:last-child a {
     height: 8px;
     margin-left: 16px;
   }
-  header .nav__item:last-child a {
+  .navbar .nav__item:last-child a {
     background: transparent;
   }
 }

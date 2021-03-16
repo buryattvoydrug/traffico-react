@@ -25,7 +25,7 @@ body{
   margin: 0 auto;
   position: relative;
 }
-header,
+.navbar,
 .bottom-nav{
   padding-top: 15px;
   display: flex;
@@ -69,7 +69,7 @@ footer{
   .container{
     width: 90vw;
   }
-  header{
+  .navbar{
     nav{
       z-index: 2;
       position: fixed;
@@ -124,7 +124,7 @@ footer{
       transform: rotate(-45deg) translate(5px,-5px);
     }
   }
-  header,.bottom-nav{
+  .navbar,.bottom-nav{
     padding-top: 30px;
     .logo{
       z-index: 3;

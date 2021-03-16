@@ -1,15 +1,26 @@
 import React, {useState} from 'react'
-import {Link, animateScroll as scroll} from 'react-scroll';
+import {Link} from 'react-scroll';
 
 import './Navbar.css'
 
 function Navbar() {
-  const [isActive,setActive]= useState(false)
-  const toggleClass = () => setActive(!isActive)
 
-  const closeMenu = () => setActive(false)
+  const [isActive,setActive]= useState(false)
+  const toggleClass = () => {
+    setActive(!isActive);
+    if (document.body.style.overflowY !== "hidden") {
+      document.body.style.overflowY = "hidden";
+    } else {
+      document.body.style.overflowY = "scroll";
+    }
+  };
+
+  const closeMenu = () => {
+    setActive(false);
+    document.body.style.overflowY = "scroll";
+  }
   return (
-    <header>
+    <div className="navbar">
       <Link to="/"
             spy={true}
             smooth={true}
@@ -51,7 +62,7 @@ function Navbar() {
              >Contact us</Link></li>
           </ul>
         </nav>
-    </header>
+    </div>
   )
 }
 
