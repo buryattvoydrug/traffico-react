@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/traffico-react/static/css/main.3ec98c45.chunk.css",
+    "main.js": "/traffico-react/static/js/main.d49a179e.chunk.js",
+    "main.js.map": "/traffico-react/static/js/main.d49a179e.chunk.js.map",
+    "runtime-main.js": "/traffico-react/static/js/runtime-main.611c3116.js",
+    "runtime-main.js.map": "/traffico-react/static/js/runtime-main.611c3116.js.map",
+    "static/css/2.674c27c3.chunk.css": "/traffico-react/static/css/2.674c27c3.chunk.css",
+    "static/js/2.8b03807f.chunk.js": "/traffico-react/static/js/2.8b03807f.chunk.js",
+    "static/js/2.8b03807f.chunk.js.map": "/traffico-react/static/js/2.8b03807f.chunk.js.map",
+    "index.html": "/traffico-react/index.html",
+    "static/css/2.674c27c3.chunk.css.map": "/traffico-react/static/css/2.674c27c3.chunk.css.map",
+    "static/css/main.3ec98c45.chunk.css.map": "/traffico-react/static/css/main.3ec98c45.chunk.css.map",
+    "static/js/2.8b03807f.chunk.js.LICENSE.txt": "/traffico-react/static/js/2.8b03807f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/traffico-react/static/media/Scene.51ed28ad.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.611c3116.js",
+    "static/css/2.674c27c3.chunk.css",
+    "static/js/2.8b03807f.chunk.js",
+    "static/css/main.3ec98c45.chunk.css",
+    "static/js/main.d49a179e.chunk.js"
+  ]
+}
