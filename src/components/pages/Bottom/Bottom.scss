@@ -29,25 +29,6 @@
       margin-top: 60px;
       width: 330px;
     }
-    .login{
-      transform: translateY(-150px);
-      width: 400px;
-      height: 340px;
-      display: flex;
-      flex-direction: column;
-      padding: 50px 75px;
-      input{
-        margin: 20px 0 35px;
-      }
-      .get{
-        width: 220px;
-      }
-    }
-  }
-  .bottom-nav{
-    nav{
-      width: 40%;
-    }
   }
 }
 @media screen and (max-width:1170px){
@@ -74,30 +55,7 @@
       .question{
         width: auto;
       }
-      .login{
-        transform: translateY(0px);
-        margin-top: 60px;
-        width: 84%;
-        height: auto;
-        padding: 12% 8%;
-        input{
-          margin: 15px 0 25px;
-        }
-        .get{
-          margin-top: 10px;
-          width: 150px;
-        }
-      }
-    }
-    .bottom-nav{
-      padding-top: 100px;
-      display: flex;
-      align-items: flex-start;
-      flex-direction: column;
-      nav{
-        margin: 40px 0;
-        width: 100%;
-      }
+      
     }
   }
 }

@@ -1,0 +1,52 @@
+@import '../Variables.scss';
+.login{
+  background: $white;
+  box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+  border-radius: 10px;
+  input{
+    border: 1px solid rgba(238, 77, 71, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px 0 20px 40px;
+    &:focus{
+      box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.2);
+      outline: none !important;
+      border: 2px solid $red !important;
+    }
+  }
+}
+.login{
+  transform: translateY(-150px);
+  width: 400px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 75px;
+  input{
+    margin: 20px 0 35px;
+  }
+  .get{
+    width: 220px;
+  }
+}
+@media screen and (max-width:1170px){
+  .login{
+    input{
+      padding: 15px 0 15px 30px ;
+    }
+  }
+  .login{
+    transform: translateY(0px);
+    margin-top: 60px;
+    width: 84%;
+    height: auto;
+    padding: 12% 8%;
+    input{
+      margin: 15px 0 25px;
+    }
+    .get{
+      margin-top: 10px;
+      width: 150px;
+    }
+  }
+}

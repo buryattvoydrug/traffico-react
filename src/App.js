@@ -6,6 +6,7 @@ import Navbar from './components/Navbar.js';
 import About from './components/pages/About/About';
 import Bottom from './components/pages/Bottom/Bottom';
 import FAQ from './components/pages/FAQ/FAQ';
+import Footer from './components/pages/Footer/Footer';
 import Head from './components/pages/Head/Head';
 import How from './components/pages/How/How';
 import Us from './components/pages/Us/Us';
@@ -22,14 +23,7 @@ function App() {
       <FAQ />
       <Us />
       <Bottom/>
-      <footer>
-        <span className="copyright">buryattvoydrug @ 2021</span>
-        <ul className="social">
-          <li><a><img src=" images/facebook.png" alt="" /></a></li>
-          <li><a><img src=" images/twitter.png" alt="" /></a></li>
-          <li><a><img src=" images/insta.png" alt="" /></a></li>
-        </ul>
-      </footer>
+      <Footer/>
     </div>
   </div>
   );
