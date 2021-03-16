@@ -1,9 +1,14 @@
 import React from 'react'
+
 import './Button.css'
 
+
 function Button() {
+
+
+
   return (
-    <button className="get">
+      <button className="get hover_effect">
       <span>Get started</span>
       <img src="images/arrow.png" alt="" />
     </button>

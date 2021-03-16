@@ -17,11 +17,15 @@
 }
 .carousel-next,.carousel-prev{
   position: absolute;
+  transition: all 300ms ease; 
   width: 30px;
   height: 20px;
   top:10px;
   left:auto;
   right:0;
+}
+.carousel-next:hover,.carousel-prev:hover{
+  opacity: 0.5;
 }
 .carousel-prev{
   right:60px;

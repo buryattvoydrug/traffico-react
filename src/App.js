@@ -13,14 +13,16 @@ import Us from './components/pages/Us/Us';
 
 
 function App() {
+
+
   return (
     <div className="wrapper">
     <div className="container">
       <header>
         <Navbar />
       </header>
-      <Head />
-      <About />
+    <Head />
+    <About />  
       <How />
       <FAQ />
       <Us />
